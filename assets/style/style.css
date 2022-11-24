@@ -1,0 +1,85 @@
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+.header__item{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.container{
+    height: 48px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.logo {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.avatar {
+    display: flex;
+}
+.avatar_img {
+    margin-top: 4px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+.ava_element {
+    margin-left: 9px;
+    margin-top: 22px;
+    width: 9.19px;
+    height: 5.1px;
+}
+.menu-home {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
+.menu_items {
+    margin-top: 51px;
+    width: 167px;
+}
+.menu-items--elements {
+    display: block;
+    text-decoration: none;
+    padding: 16px 0;
+    color: black;
+    font-size: 16px;
+    font-weight: regular;
+}
+.menu-items--elements:hover {
+    color: blue;
+    transition: 0.7s;
+    
+}
+.menu-items--elements.active{
+    background-color: blue;
+    color: white;
+}
+
+.menu-items--elements img{
+    margin-right: 14px;
+}
+
+.home{
+    margin-top: 36px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100%;
+    
+}

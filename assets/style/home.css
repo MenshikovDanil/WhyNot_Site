@@ -9,9 +9,6 @@ body {
     margin: 0;
     padding: 0;
 }
-.hack_the_ice {
- 
-}
 .img1 {
     width: 100%;
     height: 600px;
@@ -60,4 +57,12 @@ h1 {
 }
 .video1 {
     margin-left: 200px;
+}
+.sponsors {
+    width: 900px;
+    margin: 0 auto;
+}
+.partners {
+    width: 900px;
+    margin: 0 auto;
 }
